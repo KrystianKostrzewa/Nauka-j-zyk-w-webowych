@@ -9,4 +9,6 @@ RewriteRule zatrudnij-programiste-webowego index.html
 RewriteRule kim-jestem kimjestem.html
 RewriteRule oferta-tworzenie-stron-www oferta.html
 RewriteRule cv-programista-php-javascript cv.html
-RewriteRule kontakt-programista-php kontakt.html
+RewriteRule prace-php-javascript-html prace.html
+RewriteRule numer-do-programisty numertel.html
+RewriteRule email-do-programisty mail.html
