@@ -1,0 +1,2 @@
+Aby strona w odpowiedni sposob zmieniala podstrony nalezy umieścić folder ze stroną na serwerze.
+W celu sprawdzenia poprawności działania można na przykład skorzystać z aplikacji XAMMP. Stronę znajdziesz w przeglądarce pod adresem localhost/odc1

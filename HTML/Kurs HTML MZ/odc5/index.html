@@ -1,0 +1,231 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<title>Philosophia Blog</title>
+	<meta name="description" content="Blog na temat ciekawych publikacji z dziedziny filozofii. Omówienie wybranych tekstów najsłynniejszych autorów!" />
+	<meta name="keywords" content="filozofia, filozof, przemyślenia, książki filozoficzne" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/retrogranie-fontello.css" type="text/css" />
+	
+	
+	<script src="jquery-3.7.1.min.js"></script>
+		
+	<script>
+
+		$(document).ready(function() {
+		var NavY = $('#navigation').offset().top;
+		 
+		var stickyNav = function(){
+		var ScrollY = $(window).scrollTop();
+			  
+		if (ScrollY > NavY) { 
+			$('#navigation').addClass('sticky');
+		} else {
+			$('#navigation').removeClass('sticky'); 
+		}
+		};
+		 
+		stickyNav();
+		 
+		$(window).scroll(function() {
+			stickyNav();
+		});
+		});
+		
+	</script>
+
+	
+	<!--[if lt IE 9]>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<![endif]-->
+	
+</head> 
+
+<body>
+
+	<header>
+		<h1 id="logo"><a href="index.html">Philosophia Blog</a></h1>
+		<nav id="navigation">
+			<ul id="menu">
+				<li>
+					<a href="index.html">Strona główna</a></a>
+				</li>
+				<li>
+					<a href="#">Pierwszy raz tutaj?</a>
+				</li>
+				<li>
+					<a href="#">Dlaczego filozofia?</a>
+				</li>
+				<li>
+					<a href="#">O autorze</a>
+				</li>
+				<li>
+					<a href="#">Kontakt</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+	
+		<article>
+		
+			<section>
+				<div id="categories">
+					<header>
+						<h1>Witaj w świecie filozofii!</h1>
+						<p>Czy jesteś fanem filozofii? lubisz świat idei? Ciekawią Cię sposobyinterpretowania świata przez ludzi? Jeśli tak, to zapraszam do przygotowanych przeze mnie artykułów insporowanych publikacjami znanych filozofów</p>
+					</header>
+					
+					<div class="author">
+						<figure>
+							<a href="#"><img src="img/alan-watts.jpg" alt="Alan Watts" /></a>
+							<figcaption>Alan Watts</figcaption>
+						</figure>
+					</div>
+					
+					<div class="author">
+						<figure>
+							<a href="#"><img src="img/de-mello.jpg" alt="Anthony de Mello" /></a>
+							<figcaption>Anthony de Mello</figcaption>
+						</figure>
+					</div>
+					
+					<div class="author">
+						<figure>
+							<a href="#"><img src="img/nietzsche.jpg" alt="Fryderyk Nietzsche" /></a>
+							<figcaption>Fryderyk Nietzsche</figcaption>
+						</figure>
+					</div>
+					
+					<div class="author">
+						<figure>
+							<a href="#"><img src="img/platon.jpg" alt="Platon" /></a>
+							<figcaption>Platon</figcaption>
+						</figure>
+					</div>
+					
+					<div class="author">
+						<figure>
+							<a href="#"><img src="img/kant.jpg" alt="Immanuel Kant" /></a>
+							<figcaption>Immanuel Kant</figcaption>
+						</figure>
+					</div>
+					
+					<div class="author">
+						<figure>
+							<a href="#"><img src="img/emerson.jpg" alt="Ralph Waldo Emmerson" /></a>
+							<figcaption>Ralph Waldo Emmerson</figcaption>
+						</figure>
+					</div>
+				</div>
+			</section>
+			
+			<section id="newest">
+			
+				<div id="entries">
+				
+					<header>
+						<h1>Najnowsze wpisy</h1>
+						<p>Poniżej znajdziesz trzy ostatnio opublikowane artykuły - dzięki temu łatwo można sprawdzić, czy na blogu pojawiło się coś nowego. Wpisy zazwyczaj pojawiają się we wtorki i piątki, o nowościach informuję także na swoim Twitterze</p>
+					</header>
+					
+					<a href="wpis.html">
+						<div class="entry">
+							<div class="entryimg">
+								<img src="img/de-mello.jpg" alt="Anthony de Mello" />
+							</div>
+							<div class="entrytxt">
+								<h2>Antony de Mello: Poszukiwnie akceptacji</h2>
+								<p>Ktoś kiedyś pięknie to ujął: życie to coś, co przydarza się nam podczas gdy jesteśmy zajęci układaniem planów. Jesteśmy zajęci imponowaniem wszystkim wokół, dbaniem o to, by na pewno zostać dobrze odebranym. Porozmawiajmy o nałogu poszukiwania akceptacji!</p>
+							</div>
+						</div>
+					</a>
+					
+					
+					<div class="entry">
+						<div class="entryimg">
+							<img src="img/nietzsche.jpg" alt="Fryderyk Nietzsche" />
+						</div>
+						<div class="entrytxt">
+							<h2>Fryderyk Nietzsche: Zgładzić smoka</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec lacinia augue. Nulla gravida ante lectus, vitae tincidunt felis tincidunt at. Phasellus fringilla efficitur dictum. Curabitur dignissim, lacus sit amet placerat aliquam, erat ligula aliquet arcu, vitae volutpat magna purus dictum nibh. Morbi ultrices in ante in varius. </p>
+						</div>
+					</div>
+					
+					<div class="entry">
+						<div class="entryimg">
+							<img src="img/alan-watts.jpg" alt="Alan Watts" />
+						</div>
+						<div class="entrytxt">
+							<h2>Alan Watts: Potrzeba kontroli</h2>
+							<p>Quisque pharetra, arcu id faucibus molestie, felis turpis viverra odio, et interdum arcu nunc nec ligula. Suspendisse potenti. Proin dictum mi sed fermentum imperdiet. Duis nec arcu sit amet lacus suscipit hendrerit. Nulla cursus, tellus quis fermentum pulvinar, sem nunc tempus massa, ut venenatis massa turpis a ante.</p>
+						</div>
+					</div>
+				
+				</div>
+			
+			</section>
+			
+			<section>
+			
+			<div id="contact">
+					
+					<h1>Kontakt z autorem</h1>
+					<p>Jeśli masz ochotę podyskutować, zaproponować temat lub nawiązać współpracę reklamową - zapraszam do kontaktu mailowego, proszę jednak o wyrozumiałość co do czasu udzielania przeze mnie odpowiedźi.</p>
+					
+					<a id="connect" href="#">Nawiązanie współpracy</a>
+					
+				</div>
+			
+			</section>
+		
+		</article>
+	
+	</main>
+	
+	<footer>
+	
+		<div id="socials">
+			<div id="socialdivs">
+				<div class="socialtile" id="fb">
+					<a href="https://www.facebook.com/krystian0307/" class="sociallink" target="_blank">
+						<i class="icon-facebook-squared"></i>
+					</a>
+				</div> 
+				
+				<div class="socialtile" id="linkedin">
+					<a href="https://www.linkedin.com/in/krystian-kostrzewa-64944328a/" class="sociallink" target="_blank">
+						<i class="icon-linkedin-squared"></i>
+					</a>
+				</div>
+				
+				<div class="socialtile" id="github">
+					<a href="https://github.com/KrystianKostrzewa" class="sociallink" target="_blank">
+						<i class="icon-github-squared"></i>
+					</a>
+				</div>
+				
+				<div class="socialtile" id="twitter">
+					<a href="https://twitter.com/Krystian0307" class="sociallink" target="_blank">
+						<i class="icon-twitter-squared"></i>
+					</a>
+				</div>
+				<div style="clear: both;"></div>
+			</div>
+		</div>
+		
+		<div id="footer">
+			Wszelkie prawa zastrzeżone &copy; 2024 Dziękuję za wizytę!
+		</div>
+	
+	</footer>
+	
+</body>
+</html>

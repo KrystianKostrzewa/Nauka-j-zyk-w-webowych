@@ -1,0 +1,151 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	
+	<title>Retrogranie</title>
+	<meta name="description" content="Serwis o starych grach pochodzących z Nintendo Entertaintment System" />
+	<meta name="keywords" content="gry, komputerowe, retro, nes, konsole, stare gry, retrogranie" />
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/retrogranie-fontello.css" type="text/css" />
+	
+	<script src="jquery-3.7.1.min.js"></script>
+	
+	
+	<script>
+
+		$(document).ready(function() {
+		var NavY = $('#nav').offset().top;
+		 
+		var stickyNav = function(){
+		var ScrollY = $(window).scrollTop();
+			  
+		if (ScrollY > NavY) { 
+			$('#nav').addClass('sticky');
+		} else {
+			$('#nav').removeClass('sticky'); 
+		}
+		};
+		 
+		stickyNav();
+		 
+		$(window).scroll(function() {
+			stickyNav();
+		});
+		});
+		
+	</script>
+
+	
+	<!--[if lt IE 9]>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<![endif]-->
+	
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<div id="logo">
+				<img src="img/pad.png" style="float: left"/>
+				<span style="color: #c34f4f">retro</span>granie.com
+				<div style="clear:both"></div>
+			</div>
+		</div>
+		
+		<div id="nav">
+			<ol>
+				<li><a href="#">Strona główna</a></li>
+				<li><a href="#">Klasyki NES</a>
+					<ul>
+						<li><a href="#">Contra</a></li>
+						<li><a href="#">Mario Bros</a></li>
+						<li><a href="#">Duck Tales</a></li>
+						<li><a href="#">Legend of Zelda</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Gry filmowe</a>
+					<ul>
+							<li><a href="#">Home Alone</a></li>
+							<li><a href="#">Dick Tracy</a></li>
+							<li><a href="#">The Simpsons</a></li>
+							<li><a href="#">Top Gun</a></li>
+						</ul>
+				</li>
+				<li><a href="#">Bijatyki</a>
+					<ul>
+						<li><a href="#">Mortal Combat</a></li>
+						<li><a href="#">Nekketsu K.D.</a></li>
+						<li><a href="#">Double Dragon</a></li>
+						<li><a href="#">Tekken</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Gry sportowe</a>
+					<ul>
+						<li><a href="#">Goal 3</a></li>
+						<li><a href="#">Excitebike</a></li>
+						<li><a href="#">Ike Ike Hockey</a></li>
+						<li><a href="#">Tennis</a></li>
+					</ul>
+				</li>
+				<li><a href="#">O autorach</a></li>
+			</ol>
+		</div>
+		
+		<div id="content">
+			<h2>Mario Bros</h2>
+			
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dictum fermentum nisl, sit amet commodo nunc pretium non. Sed sed sapien at turpis facilisis eleifend id at diam. Praesent quis odio tempor, scelerisque erat eget, dictum mauris. Nulla finibus sem in ex venenatis, sed rutrum enim rhoncus. Integer finibus consectetur tortor nec bibendum. Integer elit tellus, pretium ac est sit amet, blandit aliquam urna. Etiam semper lectus purus, vitae fermentum nisl dictum et. Aliquam suscipit tellus quis mi iaculis commodo. Vestibulum mattis commodo nunc, in auctor lacus. Morbi mattis a neque eget bibendum. Pellentesque consectetur nunc rutrum libero pulvinar, non facilisis tellus euismod. Sed euismod felis sed tristique elementum. Mauris ac sollicitudin felis. Integer ultrices, lorem venenatis laoreet pretium, est lacus semper nulla, vel sodales nibh diam eget augue.</p>
+
+			<p>Aliquam efficitur tempor lacus a commodo. Ut hendrerit facilisis sapien at faucibus. Nulla elementum nisi vitae augue facilisis lobortis. Nullam sodales egestas est non porttitor. Maecenas mollis bibendum metus, porttitor hendrerit ex rhoncus eu. Nulla dictum arcu mauris, vel commodo mauris venenatis et. Mauris nec sollicitudin arcu. Proin congue facilisis laoreet. Maecenas eget metus et elit venenatis venenatis quis et quam. Donec quis sapien eu urna scelerisque elementum. Aliquam fermentum turpis a mauris auctor volutpat. Proin pretium interdum vehicula. Suspendisse potenti. Nunc cursus tempor ultrices. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse ut vehicula erat.</p>
+
+			<p>Aliquam eu varius leo. Mauris maximus elit eu porttitor faucibus. Sed aliquet purus eu ligula interdum ultrices. Phasellus porttitor magna eu sem condimentum pretium. Duis semper nunc ac lacus lobortis, eget rhoncus felis tincidunt. Morbi hendrerit diam quis nibh feugiat, nec pulvinar dui eleifend. Praesent consectetur, elit non dictum mattis, urna nisi sagittis ante, ut tincidunt ex arcu eleifend ipsum. Donec malesuada nibh at dignissim ullamcorper. Vivamus a imperdiet ante. Suspendisse eu tellus sed elit accumsan maximus eget sed est. Fusce venenatis lobortis sem nec pretium. Etiam placerat, erat quis viverra maximus, diam sem vestibulum diam, nec lobortis enim purus at sem. Sed ut libero id nisl finibus sollicitudin. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris vitae aliquam lectus.</p>
+
+			<p>Sed sit amet sollicitudin enim. Nulla metus lacus, consequat vel tortor quis, aliquet malesuada sapien. Ut elementum in ligula sit amet gravida. Aenean ac mauris et dolor tincidunt varius et at tortor. Mauris gravida quis nunc eu pharetra. Fusce venenatis mi nec enim auctor, nec pretium libero molestie. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris vehicula felis ipsum, mattis commodo leo molestie at. Duis sed aliquet velit. Maecenas convallis ipsum in posuere cursus. Pellentesque condimentum dapibus pretium. Suspendisse tincidunt semper risus sit amet finibus. Duis sit amet nisl luctus, porttitor ex id, bibendum elit. Nunc suscipit ex felis, ac euismod ex pharetra vitae. Suspendisse at tincidunt urna. Ut pellentesque mattis ligula quis iaculis.</p>
+
+			<p>Ut consequat nibh metus, id commodo est sollicitudin at. Donec in neque ultrices, accumsan risus at, molestie nulla. Nullam posuere volutpat lorem, non rhoncus ligula tristique nec. Praesent orci sem, dignissim ut neque at, placerat aliquam mi. Nunc finibus enim mollis magna pulvinar sodales. Curabitur facilisis ligula ut risus convallis, ut egestas nunc lacinia. Sed tincidunt tincidunt felis nec gravida. Phasellus mattis, tortor sit amet pharetra placerat, urna tellus tincidunt justo, nec imperdiet mauris orci sit amet justo. Quisque non nisi porta, tincidunt dolor a, pharetra ipsum. Nam vestibulum euismod dapibus. In in convallis nibh, ut tempor ipsum.</p>
+		</div>
+		
+		<div id="socials">
+			<div id="socialdivs">
+				<div class="socialtile" id="fb">
+					<a href="https://www.facebook.com/krystian0307/" class="sociallink" target="_blank">
+						<i class="icon-facebook-squared"></i>
+					</a>
+				</div> 
+				
+				<div class="socialtile" id="linkedin">
+					<a href="https://www.linkedin.com/in/krystian-kostrzewa-64944328a/" class="sociallink" target="_blank">
+						<i class="icon-linkedin-squared"></i>
+					</a>
+				</div>
+				
+				<div class="socialtile" id="github">
+					<a href="https://github.com/KrystianKostrzewa" class="sociallink" target="_blank">
+						<i class="icon-github-squared"></i>
+					</a>
+				</div>
+				
+				<div class="socialtile" id="twitter">
+					<a href="https://twitter.com/Krystian0307" class="sociallink" target="_blank">
+						<i class="icon-twitter-squared"></i>
+					</a>
+				</div>
+				<div style="clear: both;"></div>
+			</div>
+		</div>
+		
+		<div id="footer">
+			Retrogranie.com &copy; 2024 Thank you for your visit Mario! But our Princess is in another castle ;)
+		</div>
+	</div>
+	
+	
+</body>
+</html>
