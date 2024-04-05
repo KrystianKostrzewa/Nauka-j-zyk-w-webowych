@@ -120,9 +120,25 @@
 				</div>
 				
 				<div class="row">
+					<label>Adres email<input type="email" name="email"></label>
+					<label>Numer telefonu<input type="tel" name="telefon"></label>
+				</div>
+				
+				<div class="row">
+					<label>Data dostawy<input type="date" name="data"></label>
+					<label>Preferowany czas dostawy<input type="time" name="czas" min="08:00" max="18:00"></label>
+				</div>
+				
+				<div class="row">
+				
+					<div><label for="textarea">Uwagi do zamówienia</label></div>
+					<textarea name="komentarz" id="komentarz" rows="4" cols="80" ></textarea>
+				
+				</div>
+				<div class="row">
 					<input type="submit" value="Zamawiam!">
-					<input type="button" value="Zamawiam!">
-					<button type="button">Zamawiam!</button>
+					<!--<input type="button" value="Zamawiam!">
+					<button type="button">Zamawiam!</button> -->
 				</div>
 			
 			</form>
